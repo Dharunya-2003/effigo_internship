@@ -42,7 +42,7 @@ public class orangehrmdemo {
 			            System.out.println("Logout failed");
 			        }
 			        				 
-				 
+			 driver.quit();	 
 	}
 
 	
