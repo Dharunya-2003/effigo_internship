@@ -41,9 +41,7 @@ public class orangehrmdemo {
 			        } else {
 			            System.out.println("Logout failed");
 			        }
-			        
-
-				 
+			        				 
 				 
 	}
 
