@@ -27,9 +27,9 @@ public class orangehrmdemo {
 				 driver.findElement(By.xpath("//*[@type='submit']")).click();
 			        boolean isDashboardDisplayed = driver.findElement(By.xpath("//h6[text()='Dashboard']")).isDisplayed();
 			        if (isDashboardDisplayed) {
-			            System.out.println("Login Successful - Dashboard is displayed!");
+			            System.out.println("Login Successful Dashboard is displayed!");
 			        } else {
-			            System.out.println("Login Failed - Dashboard is NOT displayed!");
+			            System.out.println("Login Failed Dashboard is NOT displayed!");
 			        }
 
 				 
