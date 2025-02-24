@@ -11,8 +11,8 @@ public class handling_files {
 		driver.get("https://html.com/input-type-file/");
 		driver.manage().window().maximize();
 		
-		driver.findElement(By.xpath("//input[@id='fileupload']")).sendKeys("C:/Users/dharu/OneDrive/Desktop/7th sem cerrificate");
-
+		driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/dharu/OneDrive/Desktop/cv_placement/038_cv.pdf");
 	}
 
 }
+
