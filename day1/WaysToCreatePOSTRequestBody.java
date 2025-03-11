@@ -54,7 +54,7 @@ public class WaysToCreatePOSTRequestBody {
 	void testPostusingJSONlibrary()
 	{
 		JSONObject data=new JSONObject();
-		data.put("name","akshay");
+		data.put("name","riyan");
 		data.put("location","france");
 		data.put("phone","1234455");
 		String coursearr[]= {"C","C++"};
@@ -84,7 +84,7 @@ public class WaysToCreatePOSTRequestBody {
 			void testPostusingPOJO()
 			{
 				Pojo_postRequest data=new Pojo_postRequest();
-				data.setName("akshay");
+				data.setName("riyan");
 				data.setLocation("france");
 				data.setPhone("1234455");
 				String coursearr[]= {"C","C++"};
@@ -99,7 +99,7 @@ public class WaysToCreatePOSTRequestBody {
 			.post("http://localhost:3000/students")
 			.then()
 			.statusCode(201)
-			.body("name",equalTo("akshay"))
+			.body("name",equalTo("riyan"))
 			.body("location",equalTo("france"))
 			.body("phone",equalTo("1234455"))
 			.body("courses[0]",equalTo("C"))
@@ -128,7 +128,7 @@ public class WaysToCreatePOSTRequestBody {
 				.post("http://localhost:3000/students")
 				.then()
 				.statusCode(201)
-				.body("name",equalTo("akshay"))
+				.body("name",equalTo("riyan"))
 				.body("location",equalTo("france"))
 				.body("phone",equalTo("1234455"))
 				.body("courses[0]",equalTo("C"))
