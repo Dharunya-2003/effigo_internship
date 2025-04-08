@@ -37,7 +37,7 @@ public class User_Creation {
         driver.findElement(By.xpath("//input[@id='username']")).sendKeys("subadmin@bob.com");
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Bob@1234");
         driver.findElement(By.id("login")).click();
-        Thread.sleep(1000);  // ❌ Try to replace with explicit wait if needed
+        Thread.sleep(1000);  // 
 
         // Navigate to User Creation Page
         driver.findElement(By.xpath("//h3[normalize-space()='User Creation']")).click();
